@@ -1,0 +1,14 @@
+
+void setup() {
+  
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH); 
+  delay(120000); // pump 2 mins 
+                    
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(3480000); // 58*60*1000  delay 58 mins
+}
